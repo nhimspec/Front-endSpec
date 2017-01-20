@@ -1,3 +1,4 @@
+<script src="https://gist.github.com/jxson/1784669.js"></script>
 ## Synopsis
 
 Welcome to your Node.js project on Cloud9 IDE!
