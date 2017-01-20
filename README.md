@@ -2,10 +2,12 @@
 
 Welcome!
 
-This is default template html.
+This is default template html made by spec.
 
 ## Installation
 
-	$ npm install spechtml
+You can launch the app from the Terminal:
+
+	$ bower install spechtml
 
 
