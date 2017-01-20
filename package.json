@@ -1,0 +1,27 @@
+{
+  "name": "front-end-spec",
+  "description": "A Sample HTML",
+  "main": "",
+  "author": "Sonic Spec <nhimspec@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nhimspec/Front-endSpec"
+  },
+  "license": "MIT",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "html5",
+    "scss",
+    "jquery"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "license": "MIT",
+}
