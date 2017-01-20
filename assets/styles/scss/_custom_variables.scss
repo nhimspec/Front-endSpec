@@ -1,0 +1,105 @@
+// CUSTOM CORLOR
+$primary-color:                     #e67550;
+$secondary-color:                   #0b54a2;
+$form-bootstrap-color:							#66afe9;
+$gray-color:                        #a4a4a4;
+$brand-success:                     #49B75D;
+
+// BASE COLOR
+$gray-base:                         #000;
+$gray-darker:                       #333;
+$gray-dark:                         #4D4D4D;
+$gray:                              #666;
+$gray-light:                        #999;
+$gray-lighter:                      #EEE;
+
+// VIEWPORT
+$screen-sm:                         768px;
+$screen-md:                         992px;
+$screen-lg:                         1200px;
+$screen-xs-max:                     ($screen-sm - 1);
+$screen-sm-max:                     ($screen-md - 1);
+$screen-md-max:                     ($screen-lg - 1);
+
+// BASIC
+$body-bg:                           #FFF;
+$border-radius-base:                0px;
+$border-radius-large:               0px;
+$border-radius-small:               0px;
+
+// GRID
+$grid-gutter-width:                 20px;
+$container-tablet:                  (720px + $grid-gutter-width);
+$container-desktop:                 (940px + $grid-gutter-width);
+$container-large-desktop:           (960px + $grid-gutter-width);
+
+// TEXT
+$font-family-sans-serif:            'PT Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-sans-serif:                   $font-family-sans-serif;
+$font-family-serif:                 'Bebas Neue',Georgia, "Times New Roman", Times, serif;
+$font-serif:                        $font-family-serif;
+$text-color:                        $gray-dark;
+
+$link-color:                        $primary-color;
+$link-hover-color:                  darken($link-color, 15%);
+$link-hover-decoration:             underline;
+
+$font-size-base:                    18px;
+$font-size-large:                   20px;
+$font-size-small:                   14px;
+$line-height-base:                  (22/14);
+
+// HEADING
+$font-size-h1:                      100px;
+$font-size-h2:                      60px;
+$font-size-h3:                      30px;
+$font-size-h4:                      18px;
+$font-size-h5:                      14px;
+$font-size-h6:                      10px;
+
+$headings-font-weight:              700;
+$headings-line-height:              1.2;
+$headings-color:                    $gray;
+$headings-small-color:              $gray-light;
+
+// COMPONENT
+//** Global color / background for active items (e.g., navs or dropdowns).
+$component-active-color:            #FFF;
+$component-active-bg:               $primary-color;
+$component-offset-horizontal:       120px;
+
+// BUTTON
+$btn-font-weight:                   400;
+$btn-default-color:                 #FFF;
+$btn-default-bg:                    $primary-color;
+$btn-default-border:                $primary-color;
+
+$btn-border-radius-base:            0px;
+$btn-border-radius-large:           0px;
+$btn-border-radius-small:           0px;
+
+// FORM
+$input-border:                      #ebebeb;
+$input-border-focus:               	$form-bootstrap-color;
+$input-color-placeholder:           #a4a4a4;
+$form-group-margin-bottom:          15px;
+
+// DROPDOWN
+$dropdown-link-hover-color:         #FFF;
+$dropdown-link-hover-bg:            $primary-color;
+
+// NAVBAR
+$nav-link-padding:                  10px 17px;
+$nav-link-hover-bg:                 $primary-color;
+$nav-pills-border-radius:           $border-radius-base;
+$nav-pills-active-link-hover-bg:    $component-active-bg;
+$nav-pills-active-link-hover-color: $component-active-color;
+
+// MODAL
+$modal-header-border-color:         #ebebeb;
+$modal-md:                          570px;
+$modal-backdrop-bg:                 #666666;
+$modal-backdrop-opacity:            .4;
+
+// BOOTSTRAP VARIABLES
+@import "../../vendor/bootstrap-sass/assets/stylesheets/bootstrap/variables";

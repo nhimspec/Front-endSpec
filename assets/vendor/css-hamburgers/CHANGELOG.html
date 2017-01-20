@@ -1,0 +1,65 @@
+<h1 id="changelog">Changelog</h1>
+<p>Changelog for Hamburgers.</p>
+<h2 id="-0-6-0-11-22-2016">[0.6.0] - 11/22/2016</h2>
+<h3 id="fixed">Fixed</h3>
+<ul>
+<li>Fix <code>spin-r</code>’s <code>.is-active::after</code> rotation. See <a href="https://github.com/jonsuh/hamburgers/issues/28">https://github.com/jonsuh/hamburgers/issues/28</a>.</li>
+</ul>
+<h2 id="-0-5-0-04-04-2016">[0.5.0] - 04/04/2016</h2>
+<h3 id="fixed">Fixed</h3>
+<ul>
+<li><code>Error: Import directives may not be used within control directives or mixins.</code> in certain cases like when compiling with Ruby Sass.<br>Solution: <code>@import</code> all available types and instead nest Sass for each type in <code>@if</code> directive which checks to see if the type exists in <code>$hamburger-types</code>. e.g.:  <pre><code class="lang-scss">@if index($hamburger-types, 3dx) {
+ .hamburger--3dx {
+ }
+}
+</code></pre>
+</li>
+</ul>
+<h2 id="-0-4-0-03-28-2016">[0.4.0] - 03/28/2016</h2>
+<h3 id="improved">Improved</h3>
+<ul>
+<li>Customize the including/excluding of hamburger types in settings as <code>$hamburger-types</code> Sass list (e.g. If someone includes Hamburgers via npm or Bower, they don’t have to modify the source files in <code>node_modules</code> or <code>bower_components</code>.)</li>
+</ul>
+<h2 id="-0-3-0-03-07-2016">[0.3.0] - 03/07/2016</h2>
+<h3 id="fixed">Fixed</h3>
+<ul>
+<li>Top positioning bug for Elastic and Slider (<a href="https://github.com/jonsuh/hamburgers/commit/13fa2958ad18a2e48763824d3a68fd18b03ec274">#13fa295</a>).</li>
+</ul>
+<h3 id="added">Added</h3>
+<ul>
+<li><p>4 hamburger types (with reverse variants)</p>
+<pre><code>hamburger--3dx
+hamburger--3dx-r
+hamburger--3dy
+hamburger--3dy-r
+hamburger--spring
+hamburger--spring-r
+hamburger--stand
+hamburger--stand-r
+</code></pre></li>
+</ul>
+<h2 id="-0-2-0-03-04-2016">[0.2.0] - 03/04/2016</h2>
+<h3 id="added">Added</h3>
+<ul>
+<li><p>Supports and favors more accessible and semantic markup:</p>
+<pre><code>&lt;button class=&quot;hamburger&quot; type=&quot;button&quot;&gt;
+  &lt;span class=&quot;hamburger-box&quot;&gt;
+    &lt;span class=&quot;hamburger-inner&quot;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/button&gt;
+</code></pre></li>
+</ul>
+<h2 id="-0-1-6-03-02-2016">[0.1.6] - 03/02/2016</h2>
+<h3 id="added">Added</h3>
+<ul>
+<li><a href="http://bower.io/">Bower</a> support.</li>
+</ul>
+<h2 id="-0-1-5-03-02-2016">[0.1.5] - 03/02/2016</h2>
+<h3 id="added">Added</h3>
+<ul>
+<li>Ability to customize <code>border-radius</code> of hamburger layers.</li>
+</ul>
+<h2 id="-0-1-3-03-02-2016">[0.1.3] - 03/02/2016</h2>
+<ul>
+<li>Public release.</li>
+</ul>
