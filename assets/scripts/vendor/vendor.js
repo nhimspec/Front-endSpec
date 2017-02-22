@@ -1,4 +1,5 @@
 //@prepros-prepend ../../vendor/jquery/dist/jquery.min.js
+//@prepros-prepend ../../vendor/smoothscroll-for-websites/SmoothScroll.js
 //@prepros-prepend ../../vendor/bootstrap-sass/assets/javascripts/bootstrap/transition.js
 //@prepros-prepend ../../vendor/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js
 //@prepros-prepend ../../vendor/bootstrap-sass/assets/javascripts/bootstrap/modal.js
@@ -16,5 +17,5 @@
       document.head.appendChild(msViewportStyle);
     }
   })();
-
+  SmoothScroll();
 }).call(this);
