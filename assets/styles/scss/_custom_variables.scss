@@ -28,10 +28,10 @@ $border-radius-large:               0px;
 $border-radius-small:               0px;
 
 // GRID
-$grid-gutter-width:                 20px;
+$grid-gutter-width:                 30px;
 $container-tablet:                  (720px + $grid-gutter-width);
 $container-desktop:                 (940px + $grid-gutter-width);
-$container-large-desktop:           (960px + $grid-gutter-width);
+$container-large-desktop:           (1170px + $grid-gutter-width);
 
 // TEXT
 $font-family-sans-serif:            'PT Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;

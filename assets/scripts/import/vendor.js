@@ -1,11 +1,11 @@
-//@prepros-prepend ../../vendor/jquery/dist/jquery.min.js
-//@prepros-prepend ../../vendor/smoothscroll-for-websites/SmoothScroll.js
-//@prepros-prepend ../../vendor/bootstrap-sass/assets/javascripts/bootstrap/transition.js
-//@prepros-prepend ../../vendor/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js
-//@prepros-prepend ../../vendor/bootstrap-sass/assets/javascripts/bootstrap/modal.js
-//@prepros-prepend ../../vendor/owl.carousel/dist/owl.carousel.min.js
-//@prepros-prepend ../../vendor/isotope/isotope.pkgd.min.js
-//@prepros-prepend ../../vendor/wow/dist/wow.min.js
+//@codekit-prepend "../../vendor/jquery/dist/jquery.min.js"
+//@codekit-prepend "../../vendor/smoothscroll-for-websites/SmoothScroll.js"
+//@codekit-prepend "../../vendor/bootstrap-sass/assets/javascripts/bootstrap/transition.js"
+//@codekit-prepend "../../vendor/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"
+//@codekit-prepend "../../vendor/bootstrap-sass/assets/javascripts/bootstrap/modal.js"
+//@codekit-prepend "../../vendor/owl.carousel/dist/owl.carousel.min.js"
+//@codekit-prepend "../../vendor/isotope/isotope.pkgd.min.js"
+//@codekit-prepend "../../vendor/wow/dist/wow.min.js"
 
 (function() {
   (function() {

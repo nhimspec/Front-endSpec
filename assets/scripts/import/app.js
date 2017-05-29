@@ -14,7 +14,7 @@
         }
       }
     });
-    (new WOW).init();
+    (new WOW()).init();
     $('#testimonials .item-testimonials').owlCarousel({
       loop: true,
       items: 1,
