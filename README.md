@@ -24,5 +24,4 @@ Or use git clone:
 
 ```bash
     $ git clone https://github.com/nhimspec/Front-endSpec FrontEnd
-    $ cd FrontEnd/
 ```
