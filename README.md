@@ -1,13 +1,14 @@
-SymfonySyntax
+FrontEnd Template
 =============
 
-This is default template html made by spec.
+This is default template html using bootstrap, jquery made by spec.
+CodeKit App compiles Sass files into CSS files.
 
 
 Requirements
 ------------
 
-  * [bower.io](https://bower.io/)
+  * [bower.io](https://bower.io/) Or
   * [Codekit](https://codekitapp.com/) Using on MacOS
 
 Installation
